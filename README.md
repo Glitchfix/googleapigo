@@ -30,7 +30,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(audioResponse)
+	fmt.Println(textResponse)
 
 	textConf := GoogleAPI.TextConfig{
 		Text: "Hello, darkness my old friend!",
@@ -40,7 +40,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(textResponse)
+	fmt.Println(voiceResponse)
 }
 ```
 
