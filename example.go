@@ -1,8 +1,3 @@
-# googleapigo
-Easy to implement minimalistic golang package for Google APIs
-
-### Example
-```golang
 package main
 
 import (
@@ -42,17 +37,3 @@ func main() {
 	}
 	fmt.Println(textResponse)
 }
-```
-
-#### Currently supported cloud APIs
-1. Speech-to-Text
-2. Text-to-Speech
-
-Please feel free to contribute or as issues.
-In case you need any help please feel free to contact me.
-
-#### Contact
-[GitHub](https://github.com/Glitchfix)
-[LinkedIn](https://in.linkedin.com/in/shivanjan)
-Email: schakravorty846@gmail.com
-Phone: +919658965891, +917978129659
